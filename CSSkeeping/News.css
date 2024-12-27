@@ -1,0 +1,864 @@
+header {
+     width: 100%;
+}
+
+body {
+     margin: 0;
+     min-width: 100%;
+     max-width: 120%;
+}
+
+.class02 {
+     display: none;
+}
+
+/* ซ่อนรูปแบบที่จะจัดresponsive */
+.footerSmall,
+.smallReward,
+.smallMenu {
+     display: none;
+}
+
+/* ใส่backgroundและใช้ขนาดpxเพื่อเวลาขยายจะได้เป็นเหมือนต้นฉบับ(เวลาขยายภาพไม่ขยายตาม) */
+#bgElden {
+     background-image: url(../ImageKeeping/Page1/Elden/header.jpg);
+     background-repeat: no-repeat;
+     background-size: 1920px auto;
+     height: 910px;
+     background-position: right top;
+     background-position-x: 50%;
+     position: relative;
+     width: 100%;
+}
+
+/* จัดตำแหน่งข้อความข้างบนในแกนy */
+.setPoint img {
+     transform: translateY(166px);
+}
+
+/* จัดเรียงตำแหน่งแนวแกนx */
+.set01 {
+     margin-left: 1000px;
+     width: auto;
+}
+
+.set02 {
+     margin-left: 790px;
+     margin-top: 10px;
+     width: auto;
+}
+
+.set03 {
+     margin-left: 940px;
+     margin-top: 70px;
+     width: 20.5%;
+}
+
+.gtr {
+     display: none;
+}
+
+/* จัดรูปภาพและตัวหนังสือให้อยู่ข้างใน */
+.gameplay {
+     color: white;
+     background: rgba(69, 92, 182, 0.18) url(../ImageKeeping/Page1/Home/img_concept_01.jpg);
+     background-blend-mode: darken;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 290px;
+     height: 160px;
+     margin-left: 940px;
+     margin-top: 230px;
+     margin-bottom: -100px;
+     padding: 0 0 16px 16px;
+     color: #fff;
+     font-size: 24px;
+     line-height: 1.4em;
+     letter-spacing: 0.8px;
+     position: relative;
+}
+
+.gameplay p,
+.gameplay img {
+     display: flex;
+     flex-direction: row;
+}
+
+.gameplay img {
+     position: absolute;
+     top: -45px;
+     right: 15px;
+}
+
+a {
+     list-style-type: none;
+     text-decoration: none;
+}
+
+.set04 {
+     margin-left: 945px;
+     margin-top: -100px;
+     width: auto;
+}
+
+.set05 {
+     margin-left: 1005px;
+     margin-top: -30px;
+     width: auto;
+}
+
+.set06 {
+     margin-left: 940px;
+     width: auto;
+}
+
+/* ใส่backgroundจุดที่2 */
+.inBoarder01 {
+     background: black url(../ImageKeeping/Page1/Elden/background.png);
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding-bottom: 200px;
+}
+
+/* ใส่stickyเพื่อให้ข้อความติดไปด้วยตอนเลื่อนลง */
+.menu {
+     background-color: black;
+     margin: auto;
+     margin-left: 0px;
+     top: 0;
+     position: sticky;
+     text-align: center;
+
+}
+
+.line {
+     background-image: linear-gradient(to right, transparent, #676665 30%, #676665 70%, transparent);
+     height: 1px;
+}
+
+
+.menu li {
+     display: inline-flex;
+     padding: 0;
+     color: rgba(241, 231, 201, 0.612);
+     font-size: 1.3em;
+     font-weight: 0;
+     justify-content: center;
+}
+
+.menu a+a {
+     border-left: solid #8989899c thin;
+     height: 100px;
+}
+
+.menu li {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+
+.menu a {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+/* ปรับความกว้างตรงmenuและปรับทีละตัวเพื่อให้ความกว้างออกมาดูดีและสมมาตรกัน */
+.menu>a:nth-of-type(1)>li {
+     width: 150px;
+}
+
+.menu>a:nth-of-type(2)>li {
+     width: 167px;
+}
+
+.menu>a:nth-of-type(3)>li {
+     width: 167px;
+}
+
+.menu>a:nth-of-type(4)>li {
+     width: 220px;
+}
+
+.menu>a:nth-of-type(5)>li {
+     width: 140px;
+}
+
+.menu>a:nth-of-type(6)>li {
+     width: 167px;
+}
+
+.menu>a:nth-of-type(7)>li {
+     justify-content: left;
+     background-repeat: no-repeat;
+     background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="%238d8e8a"/></svg>');
+     width: 20px;
+     height: 20.4417px;
+     margin-left: 40px;
+     padding: 0;
+}
+
+.menu a {
+     text-decoration: none;
+     list-style-type: none;
+}
+
+
+
+.menu a :hover {
+     background: radial-gradient(#777055 8%, transparent 65%);
+     background-position: 20% 80%;
+     bottom: -55%;
+     background-position: left top;
+     transition: opacity 0.4s ease;
+}
+
+/* จัดNews */
+.news {
+     padding-top: 125px;
+     margin-left: 360px
+}
+
+.news_select {
+     display: flex;
+     justify-content: center;
+     margin-top: 35px;
+}
+
+.textNews img,
+.textNews p {
+     width: 400px;
+     margin: 25px;
+     margin-bottom: 5px;
+     margin-top: 7px;
+     color: white;
+}
+
+
+.scrollBar,
+.scrollBar img {
+     width: 60%;
+     display: flex;
+     align-items: center;
+     margin: auto;
+     margin-top: 2%;
+     justify-content: center;
+}
+
+/* ปรับตำแหน่งspec */
+.spec {
+     margin-left: 375px;
+     margin-top: 120px;
+}
+
+.specText {
+     margin-top: 50px;
+}
+
+.specText ul li p,
+h6 {
+     color: white;
+     display: inline-block;
+     margin: 0;
+     padding-left: 50px;
+     letter-spacing: 0.3em;
+     line-height: 1.7em;
+     padding-bottom: 20px;
+     width: 560px;
+     list-style-type: none;
+     font-size: 1.1em;
+}
+
+.specText ul li h6 {
+     text-align: right;
+     font-size: 15px;
+     font-weight: 400;
+}
+
+.specText ul {
+     width: 1300px;
+     margin: 0;
+}
+
+.specText ul li ol {
+     display: flex;
+     flex-direction: column;
+
+}
+
+/* ปรับข้อความspecที่แยกพิเศษออกมา */
+.textEx ol {
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     margin-left: 625px;
+     margin-top: -50px;
+     margin-bottom: 15px;
+     line-height: 2em;
+     font-size: 1.1em;
+}
+
+.textEx li {
+     display: flex;
+     justify-content: space-between;
+}
+
+.textEx .edition,
+.textEx .price,
+.textEx h6 {
+     display: inline-block;
+     color: white;
+     margin: 0;
+}
+
+.textEx h6 {
+     font-weight: 10;
+}
+
+
+.official {
+     margin-left: 380px;
+     margin-top: 120px;
+     opacity: 0.5;
+}
+
+.official img,
+.official .X {
+     margin-top: 10px;
+     padding: 15px !important;
+     border: white solid thin;
+     border-radius: 50%;
+     background-size: 40%;
+     align-items: center;
+     background-position: center;
+}
+
+.official img {
+     position: absolute;
+     left: 790px;
+}
+
+.official .X {
+     position: absolute;
+     left: 630px;
+}
+
+
+.official h1 {
+     color: white;
+     font-weight: 10;
+     font-size: 25px;
+     letter-spacing: 10px;
+     width: 250px;
+}
+
+/* import โลโก้Xในรูปแบบsvg */
+.X {
+     background-repeat: no-repeat;
+     background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="%238d8e8a"/></svg>');
+     width: 20px;
+     height: 20.4417px;
+     margin-left: 40px;
+     padding: 0;
+}
+
+.inBoarder02 {
+     background-color: black;
+     padding-bottom: 2%;
+}
+
+.official h1,
+.X,
+.official img {
+     display: inline-block;
+     padding-right: 20px;
+}
+
+.reward img {
+     width: 90%;
+     justify-content: center;
+     margin: auto;
+     display: flex;
+}
+
+/* ปรับfooter */
+.footerLine01 {
+     margin-left: 90px;
+
+}
+
+.footerLine01 ol li a,
+.footerLine01 ol li p,
+.footerLine01 ol li {
+     display: inline-block;
+     color: white;
+     list-style-type: none;
+     text-decoration: none;
+     margin: 3px;
+}
+
+.footerLine01 ol li p {
+     margin-left: 90px;
+     font-size: 0.9em;
+}
+
+.footerLine01 ol li a {
+     border: white solid thin;
+     padding: 5px 20px 5px 20px;
+}
+
+.footerLine01>ol>li:nth-child(1)>a {
+     padding: 5px 25px 5px 25px;
+}
+
+.footerLine01>ol>li:nth-child(3)>a {
+     width: 195px;
+     text-align: center;
+}
+
+.footerLine02 {
+     margin-left: 60px;
+     margin-top: -10px;
+}
+
+.footerLine02 ul+ul {
+     margin-left: 300px;
+}
+
+.footerLine02 ul+ul a li img {
+     align-items: center;
+}
+
+.footerLine02 ul+ul a li .X {
+     padding: 0;
+     background-size: 60%;
+     background-position: center;
+}
+
+.footerLine02 ul+ul a li img,
+.footerLine02 ul+ul a li .X {
+     background-color: #262525;
+     padding: 10px;
+     border-radius: 10%;
+}
+
+.footerLine02 ul a li,
+.footerLine02 ul {
+     display: inline-block;
+     text-decoration: none;
+     list-style-type: none;
+     margin-left: 20px;
+}
+
+.footerLine03 {
+     margin-left: 140px;
+     margin-top: -30px;
+}
+
+.footerLine03 ul {
+     margin-left: 230px;
+}
+
+.footerLine03 ul li+li {
+     margin-left: 20px;
+}
+
+.footerLine03 img,
+.footerLine03 ul,
+.footerLine03 ul li {
+     display: inline-block;
+     text-decoration: none;
+     list-style-type: none;
+}
+
+.endText {
+     color: white;
+     margin: auto;
+     text-align: center;
+}
+
+.hrLine {
+     border-bottom: solid thin rgb(111, 111, 111);
+}
+
+.endText {
+     font-size: 0.8em;
+     opacity: 0.5;
+}
+
+/* ทำให้ตอนซูมเข้าตัวหนังสือไม่พัง */
+@media screen and (max-width: 1400px) {
+     body {
+          margin: 0;
+          min-width: 110%;
+     }
+}
+
+@media screen and (max-width: 1300px) {
+     body {
+          margin: 0;
+          min-width: 120%;
+     }
+}
+
+@media screen and (max-width: 1200px) {
+     body {
+          margin: 0;
+          min-width: 130%;
+     }
+}
+
+@media screen and (max-width: 1100px) {
+     body {
+          margin: 0;
+          min-width: 140%;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     body {
+          margin: 0;
+          min-width: 170%;
+     }
+}
+
+@media screen and (max-width: 900px) {
+     body {
+          min-width: 200%;
+     }
+}
+
+
+/* ปรับรูปแบบใหม่เมื่อถึงจุดที่กำหนด */
+@media screen and (max-width: 760px) {
+     body {
+          min-width: 100%;
+     }
+
+     .smallMenu,
+     .smallMenu img {
+          display: flex;
+          position: fixed;
+          top: 0;
+          right: 0;
+          width: 4em;
+     }
+
+     .line {
+          background-color: rgb(145, 144, 144);
+          height: 0.5px;
+     }
+
+     .class01 {
+          display: none;
+     }
+
+     .class02 {
+          display: block;
+     }
+
+     .bgElden02 {
+          background-image: url(../ImageKeeping/Page1/Elden/header02.jpg);
+          background-color: black;
+          background-size: 100% auto;
+          height: 185.46vw;
+          background-repeat: no-repeat;
+     }
+
+     .bgElden02 img {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          align-items: center;
+     }
+
+     .bgElden02>img:nth-child(1) {
+          padding-top: 24em;
+          max-width: 90%;
+          width: 80em;
+     }
+
+     .bgElden02>img:nth-child(2) {
+          max-width: 85%;
+          width: 10em;
+     }
+
+     .bgElden02>img:nth-child(3) {
+          max-width: 55%;
+          width: 7em;
+     }
+
+     .bgElden02>a>img {
+          max-width: 70%;
+          width: 50em;
+     }
+
+     .bgElden02 a+a img {
+          margin-top: 2em;
+     }
+
+     /* บล๊อค2 */
+     .bgNo2 {
+          padding-top: 9em;
+          background-color: black;
+     }
+
+     .news02 img {
+          padding-left: 2em;
+          max-width: 70%;
+          width: 10em;
+     }
+
+     .newsInfor01 img {
+          padding-top: 2em;
+          max-width: 70%;
+          width: 30em;
+     }
+
+     .newsInfor01 p {
+          margin-top: -0.1em;
+          padding-left: 3em;
+          color: white;
+          width: 16em;
+          font-weight: 400;
+          letter-spacing: 0.7em;
+          font-size: 0.8em;
+          letter-spacing: 0.1em;
+     }
+
+     .newsInfor02 img {
+          margin-top: 1em;
+          max-width: 85%;
+          width: 50em;
+     }
+
+     .specText02 {
+          background: black url(../ImageKeeping/Page1/Elden/background\ \(1\).png);
+          background-size: 100%;
+          background-position: bottom right;
+          background-repeat: no-repeat;
+     }
+
+     .specText02 img {
+          padding-left: 4.8em;
+          margin-top: 5em;
+          max-width: 80%;
+          width: 10em;
+     }
+
+     .specText02 ul * {
+          color: white;
+          list-style-type: none;
+          font-size: 0.9em;
+          display: inline-block;
+          padding: 0;
+     }
+
+     .specText02 ul {
+          padding: 0;
+          padding-left: 5em;
+     }
+
+     .specText02 ul li * {
+          font-weight: 500;
+     }
+
+     .specText02 ul li {
+          width: 90%;
+          margin-bottom: 2em;
+     }
+
+     .specText02 ul li h6 {
+          width: auto;
+          height: auto;
+     }
+
+     .specText02 ul li p {
+          margin: 0;
+          line-height: 1.5em;
+          letter-spacing: 0.15em;
+     }
+
+     .textEx02 * {
+          color: white;
+     }
+
+     .textEx02 ol li * {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .textEx02 ol li {
+          margin-bottom: 1em;
+          font-size: 1em;
+     }
+
+     .textEx02 ol {
+          width: 17em;
+     }
+
+
+
+
+     .smallReward {
+          display: block;
+     }
+
+     .smallReward img {
+          width: 100%;
+          justify-content: center;
+          margin: auto;
+          display: flex;
+     }
+
+     li.footDown,
+     .footDown p {
+          display: flex !important;
+          margin: 0 !important;
+     }
+
+
+
+     .footerLine01 {
+          margin: 0;
+     }
+
+     .footerLine01 ol {
+          padding: 0;
+     }
+
+     .footerLine01 ol li {
+          width: 95%;
+          justify-content: center;
+
+     }
+
+     .footerLine01 ol li a {
+          font-size: 0.5em;
+          border-color: #4f4f4f;
+     }
+
+     .footerLine01>ol>li:nth-child(2)>p {
+          padding-top: 0.7em;
+          padding-bottom: 0.5em;
+          font-size: 0.7em;
+     }
+
+     .footerLine01>ol>li:nth-child(3)>a {
+          padding: 0.6em 0em 0.6em 0em !important;
+          font-size: 0.6em;
+          width: 13em;
+          text-align: center;
+          justify-content: center;
+     }
+
+     .footerLine01>ol>li:nth-child(3) {
+          display: block;
+          text-align: center;
+          justify-content: center;
+          margin: auto;
+     }
+
+     .app {
+          display: flex;
+          margin: auto;
+          justify-content: center;
+     }
+
+
+     .X {
+          margin: 0;
+          padding: 0;
+     }
+
+     .app {
+          margin-bottom: 1em;
+     }
+
+     .app a+a {
+          margin-left: 2em;
+     }
+
+     .app a li {
+          background-color: #2a2a2a;
+          padding: 0.2em 0.2em 0em 0.2em;
+          border-radius: 10%;
+     }
+
+     .psClass {
+          margin-top: 1em;
+          margin-bottom: 1em;
+     }
+
+     .psClass01,
+     .psClass02 {
+          display: flex;
+          margin: auto;
+          justify-content: center;
+          align-items: center;
+     }
+
+
+     .psClass01 a li,
+     .psClass02 a li {
+          width: 5em;
+          display: inline;
+     }
+
+     .psClass01 a li img,
+     .psClass02 a li img {
+          margin: 0.5em 0em 0.5em 0em;
+          width: 10em;
+     }
+
+     .psClass01 a+a li img,
+     .psClass02 a+a li img {
+          width: 5em;
+          margin-left: 2em;
+     }
+
+
+
+
+     .footerSmall {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2em;
+     }
+
+     .footerSmall img {
+          width: 90%;
+
+     }
+
+     .fromSW {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .fromSW li {
+          display: inline;
+     }
+
+     .fromSW p {
+          font-size: 0.6em;
+          display: flex;
+          margin: auto;
+          justify-content: center;
+          color: rgba(210, 210, 210, 0.622);
+          padding-bottom: 2em;
+     }
+
+     .fromSW li a img {
+          width: 3em;
+     }
+
+     .fromSW li+li a img {
+          width: 10em;
+          margin-left: 2em;
+     }
+
+
+
+
+}

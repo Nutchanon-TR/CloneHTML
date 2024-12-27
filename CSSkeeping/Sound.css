@@ -1,0 +1,350 @@
+body {
+     background: rgba(0, 19, 25, 0.441) url(../ImageKeeping/Page1/Sound/bg\ \(1\).jpg);
+     background-blend-mode: darken;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     font-family: 'Sorts Mill Goudy', serif;
+     text-align: center;
+     letter-spacing: 0.1em;
+     color: #beb38a;
+     margin: 0;
+     margin-top: 6.75%;
+}
+
+.last02{
+     display: none;
+}
+
+.elden {
+     max-width: 90%;
+     width: 50rem;
+}
+
+.language {
+     margin-top: 2.5%;
+     font-size: 19px;
+}
+
+.language dl {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.language dl dt {
+     text-decoration: none;
+     display: inline-flex;
+     color: rgb(170, 156, 122);
+}
+
+.language dl a dt {
+     margin: 0;
+     padding: 10px;
+     background-color: rgba(0, 0, 0, 0.564);
+}
+
+.digital {
+     max-width: 80%;
+     width: 35rem;
+     margin-top: 5%;
+     margin-bottom: 3.5%;
+}
+
+
+.soundTrack {
+     max-width: 100%;
+     background-color: rgba(0, 0, 0, 0.289);
+     border: rgba(168, 147, 92, 0.302) solid thin;
+     width: 61.5%;
+     justify-content: center;
+     margin: auto;
+}
+
+.soundTrack p {
+     font-size: 1.3em;
+     line-height: 165%;
+     justify-content: center;
+     margin-top: 1.15em;
+}
+
+.soundTrack form input {
+     width: 17.75%;
+     height: 7%;
+     margin: 0.5%;
+     margin-top: 1.5em;
+     margin-bottom: 1.5em;
+}
+
+.soundTrack img {
+     margin-top: 2em;
+     margin-bottom: 3em;
+     max-width: 90%;
+}
+
+input {
+     font-size: 160%;
+     font-weight: bold;
+
+}
+
+/* จัดรูปแบบinputว่าช่องข้อความมีลักษณะยังไง */
+input[type=text] {
+     display: inline-block;
+     position: relative;
+     padding: 1em;
+     margin: 8px 0;
+     box-sizing: border-box;
+     color: #beb38a;
+     text-align: center;
+     border: none;
+     background-color: rgba(215, 182, 126, 0);
+     box-shadow: 0px -25px 20px -20px rgba(197, 179, 148, 0.4) inset,
+          25px 0px 20px -20px rgba(197, 179, 148, 0.4) inset,
+          0px 25px 20px -20px rgba(197, 179, 148, 0.4) inset,
+          -25px 0px 20px -20px rgba(197, 179, 148, 0.4) inset;
+     display: inline-block;
+}
+
+/* เอฟเฟคเวลาfocus */
+input[type=text]:focus {
+     box-shadow: 0px -25px 20px -20px rgba(215, 166, 126, 0.95) inset,
+          25px 0px 20px -20px rgba(215, 182, 126, 0.95) inset,
+          0px 25px 20px -20px rgba(215, 182, 126, 0.95) inset,
+          -25px 0px 20px -20px rgba(215, 182, 126, 0.95) inset;
+     outline: none;
+
+}
+
+/* ปรับเอฟเฟคเวลาเอาเมาส์ไปชี้ให้ค่อยๆจางลง */
+.soundTrack a:hover,
+.language a :hover,
+.logo02 a :hover {
+     opacity: 0.75;
+     transition: opacity ease 250ms;
+}
+
+.descript {
+     font-size: 0.97em;
+     width: 62%;
+     margin: auto;
+     margin-top: 3%;
+     text-align: left;
+     justify-content: center;
+     line-height: 1.5em;
+}
+
+.descript li {
+     display: list-item;
+     text-align: -webkit-match-parent;
+     list-style-type: none;
+}
+
+.descript li {
+     text-indent: -1em;
+     padding-left: 1em;
+     margin-top: 0.5rem;
+}
+
+.logo01 {
+     margin: 0;
+     margin-top: 7%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.logo01 img {
+     width: 12rem;
+     height: auto;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+.logo02 {
+     margin-top: 1.8%;
+     margin-bottom: 1.5%;
+}
+
+.logo02 img {
+     max-width: 80%;
+}
+
+.logo img {
+     justify-content: center;
+     margin: 0 !important;
+     padding: 10px;
+}
+
+.logo p {
+     font-size: 0.8em;
+     line-height: 170%;
+     color: #bbad7b;
+}
+
+.last {
+     background-color: white;
+     margin-top: 7.5%;
+}
+
+.last dl {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     padding-top: 1%;
+     max-width: 90%;
+}
+
+
+.last_text01,
+.last_text02,
+.last_textTop {
+     display: flex;
+}
+
+.last a,
+.last p {
+     margin-top: 1.2%;
+     text-decoration: none;
+     list-style: none;
+     margin-left: -1.5%;
+     margin-bottom: -1.5%;
+     font-size: .8em;
+     letter-spacing: 0.01em;
+     color: rgb(82, 82, 82);
+}
+
+.last a :hover {
+     color: orangered;
+}
+
+.last img {
+     margin-top: 2.9%;
+     width: 10em;
+}
+
+.last p {
+     margin-left: 0.5%;
+     margin-top: 0.6%;
+}
+
+#pagetop {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     margin: 0.5%;
+}
+
+#pagetop :hover {
+     opacity: 0.75;
+     transition: opacity ease 250ms;
+}
+
+/* ปรับขนาดเมื่อถึงขนาดที่กำหนด */
+@media screen and (max-width: 800px) {
+
+     .logo01,
+     .logo01 img {
+          display: inline-block;
+          align-items: center;
+          justify-content: center;
+          margin-top: 7%;
+          margin-bottom: -1%;
+     }
+
+     .last{
+          display: none;
+     }
+
+     .last02{
+          display: block;
+          background-color: white;
+          padding-top: 0.5em;
+     }
+
+     .last02 dl *{
+          margin: auto;
+          margin-top: 0.5em;
+          justify-content: center;
+          font-size: 0.9em;
+          list-style-type: none;
+          text-decoration: none;
+          color: black;
+     }
+
+     .last02 img{
+          width: 10em;
+     }
+
+     .last02 p{
+          color: black;
+          font-size: 0.7em;
+     }
+
+
+     /* .last dl {
+          display:block;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .last dl .last_text01 a,
+     .last dl .last_text02 a {
+          display: inline-block;
+          padding-top: 2%;
+     }
+
+     .last dl .last_text01 a+a,
+     .last dl .last_text02 a+a {
+          margin-left: 2rem;
+     }
+
+     .last dl .last_text01,
+     .last dl .last_text02 {
+          text-align: center;
+     } */
+
+     /* ปรับขนาดเมื่อถึงขนาดที่กำหนด */
+     @media screen and (max-width: 450px) {
+
+          .soundTrack p,
+          .soundTrack form,
+          .language {
+               font-size: 0.5em !important;
+          }
+
+          /* .last a {
+               font-size: 11px;
+               padding-top: 3vw;
+          }
+
+          .last dl .last_text01,
+          .last dl .last_text02 {
+               margin-top: 1.5rem;
+          } */
+
+
+          .soundTrack {
+               width: auto;
+               margin-left: 5%;
+               margin-right: 5%;
+          }
+
+          .soundTrack p {
+               margin-left: 5%;
+               margin-right: 5%;
+          }
+
+          .descript,
+          .logo p {
+               width: auto;
+               margin-left: 5%;
+               margin-right: 5%;
+               font-size: .5em;
+          }
+
+     }
+}
